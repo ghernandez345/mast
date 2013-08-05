@@ -24,7 +24,7 @@
     "Realtime",
     "Socket.io"
   ],
-  "main": "lib/export",
+  "main": "mast.js",
   "directories": {
     "lib": "lib",
     "example": "example"
