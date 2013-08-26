@@ -24,7 +24,7 @@
     "Realtime",
     "Socket.io"
   ],
-  "main": "mast.js",
+  "main": "dist/mast.js",
   "directories": {
     "lib": "lib",
     "example": "example"
@@ -43,9 +43,11 @@
     "url": "http://github.com/balderdashy/mast/issues"
   },
   "devDependencies": {
-    "mocha": "~1.10.0",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-uglify": "~0.2.2",
     "grunt": "~0.4.1"
+  },
+  "scripts": {
+    "test": "phantomjs test/vendor/runner.js test/index.html?noglobals=true"
   }
 }
